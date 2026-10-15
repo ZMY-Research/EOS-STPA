@@ -230,13 +230,13 @@ def main() -> None:
         "conditionObject", "faultMode", "ssc", "sscLabel",
     ]
     expected_row = [
-        "https://EOS-STPA.github.io/EOS-STPA/ontology#Input_001",
-        "https://EOS-STPA.github.io/EOS-STPA/ontology#CollisionRelatedHazard",
-        "https://EOS-STPA.github.io/EOS-STPA/ontology#VehicleAction",
-        "https://EOS-STPA.github.io/EOS-STPA/ontology#InBraking",
-        "https://EOS-STPA.github.io/EOS-STPA/ontology#RedLight",
-        "https://EOS-STPA.github.io/EOS-STPA/ontology#Late",
-        "https://EOS-STPA.github.io/EOS-STPA/ontology#SSC_DelayedRedLight_001",
+        "https://ZMY-Research.github.io/EOS-STPA/ontology#Input_001",
+        "https://ZMY-Research.github.io/EOS-STPA/ontology#CollisionRelatedHazard",
+        "https://ZMY-Research.github.io/EOS-STPA/ontology#VehicleAction",
+        "https://ZMY-Research.github.io/EOS-STPA/ontology#InBraking",
+        "https://ZMY-Research.github.io/EOS-STPA/ontology#RedLight",
+        "https://ZMY-Research.github.io/EOS-STPA/ontology#Late",
+        "https://ZMY-Research.github.io/EOS-STPA/ontology#SSC_DelayedRedLight_001",
         "Vehicle action shall be in braking when traffic infrastructure provides late red light",
     ]
     validation_passed = (

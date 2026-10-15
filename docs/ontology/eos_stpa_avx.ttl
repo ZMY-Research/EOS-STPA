@@ -1,11 +1,11 @@
-@prefix eos: <https://EOS-STPA.github.io/EOS-STPA/ontology#> .
+@prefix eos: <https://ZMY-Research.github.io/EOS-STPA/ontology#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix swrl: <http://www.w3.org/2003/11/swrl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://EOS-STPA.github.io/EOS-STPA/ontology> a owl:Ontology ;
+<https://ZMY-Research.github.io/EOS-STPA/ontology> a owl:Ontology ;
     rdfs:label "EOS-STPA AV-X ontology validation module"@en ;
     rdfs:comment "Machine-readable proof-of-concept ontology and SWRL rule set for the delayed red-light validation case described in the EOS-STPA manuscript."@en ;
     owl:versionInfo "1.0.0" .

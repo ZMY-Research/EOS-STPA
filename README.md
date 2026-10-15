@@ -14,7 +14,7 @@ The executable ontology validation materials are organized in the `ontology/`, `
 The public repository is available at:
 
 ```text
-https://github.com/EOS-STPA/EOS-STPA
+https://github.com/ZMY-Research/EOS-STPA
 ```
 
 ## Repository structure
@@ -133,7 +133,7 @@ The runner is not a complete OWL Description Logic reasoner and is not presented
 The executable ontology uses the following namespace:
 
 ```text
-https://EOS-STPA.github.io/EOS-STPA/ontology#
+https://ZMY-Research.github.io/EOS-STPA/ontology#
 ```
 
 The namespace is used consistently in:
@@ -147,24 +147,24 @@ The namespace is used consistently in:
 The machine-readable Turtle/OWL ontology is available at:
 
 ```text
-https://EOS-STPA.github.io/EOS-STPA/ontology/eos_stpa_avx.ttl
+https://ZMY-Research.github.io/EOS-STPA/ontology/eos_stpa_avx.ttl
 ```
 
 The ontology documentation page is available at:
 
 ```text
-https://EOS-STPA.github.io/EOS-STPA/ontology/
+https://ZMY-Research.github.io/EOS-STPA/ontology/
 ```
 
 ## Namespace configuration
 
-The namespace has already been configured for the public EOS-STPA repository.
+The namespace has already been configured for the public ZMY-Research/EOS-STPA repository.
 
 To regenerate the namespace configuration and validation outputs, run:
 
 ```bash
 python scripts/configure_namespace.py \
-  --username EOS-STPA \
+  --username ZMY-Research \
   --repository EOS-STPA
 ```
 
@@ -185,7 +185,7 @@ To enable GitHub Pages:
 The resulting GitHub Pages site is:
 
 ```text
-https://EOS-STPA.github.io/EOS-STPA/
+https://ZMY-Research.github.io/EOS-STPA/
 ```
 
 ## Generated outputs
